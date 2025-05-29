@@ -84,6 +84,8 @@ disable_stacks_api = false
 # miner_derivation_path = "m/44'/5757'/0'/0/0"
 # faucet_mnemonic = "shadow private easily thought say logic fault paddle word top book during ignore notable orange flight clock image wealth health outside kitten belt reform"
 # faucet_derivation_path = "m/44'/5757'/0'/0/0"
+# stacker_mnemonic = "empty lens any direct brother then drop fury rule pole win claim scissors list rescue horn rent inform relief jump sword weekend half legend"
+# stacker_derivation_path = "m/44'/5757'/0'/0/0"
 # orchestrator_port = 20445
 # bitcoin_node_p2p_port = 18444
 # bitcoin_node_rpc_port = 18443
@@ -101,6 +103,8 @@ disable_stacks_api = false
 # postgres_password = "postgres"
 # postgres_database = "postgres"
 # bitcoin_node_image_url = "quay.io/hirosystems/bitcoind:26.0"
+# stacks_node_image_url = "quay.io/hirosystems/stacks-node:devnet-3.0"
+# stacks_signer_image_url = "quay.io/hirosystems/stacks-signer:devnet-3.0"
 # stacks_node_image_url = "quay.io/hirosystems/stacks-node:devnet-2.5"
 # stacks_signer_image_url = "quay.io/hirosystems/stacks-signer:devnet-2.5"
 # stacks_api_image_url = "hirosystems/stacks-blockchain-api:master"
@@ -126,6 +130,7 @@ disable_stacks_api = false
 # epoch_2_3 = 103
 # epoch_2_4 = 104
 # epoch_2_5 = 108
+# epoch_3_0 = 142
 # epoch_3_0 = 144
 
 

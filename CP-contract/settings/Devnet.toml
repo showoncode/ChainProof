@@ -105,6 +105,8 @@ disable_stacks_api = false
 # bitcoin_node_image_url = "quay.io/hirosystems/bitcoind:26.0"
 # stacks_node_image_url = "quay.io/hirosystems/stacks-node:devnet-3.0"
 # stacks_signer_image_url = "quay.io/hirosystems/stacks-signer:devnet-3.0"
+# stacks_node_image_url = "quay.io/hirosystems/stacks-node:devnet-2.5"
+# stacks_signer_image_url = "quay.io/hirosystems/stacks-signer:devnet-2.5"
 # stacks_api_image_url = "hirosystems/stacks-blockchain-api:master"
 # stacks_explorer_image_url = "hirosystems/explorer:latest"
 # bitcoin_explorer_image_url = "quay.io/hirosystems/bitcoin-explorer:devnet"
@@ -129,6 +131,8 @@ disable_stacks_api = false
 # epoch_2_4 = 104
 # epoch_2_5 = 108
 # epoch_3_0 = 142
+# epoch_3_0 = 144
+
 
 # Send some stacking orders
 [[devnet.pox_stacking_orders]]

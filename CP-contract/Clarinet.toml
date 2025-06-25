@@ -5,12 +5,16 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.IP-audit]
+path = 'contracts/IP-audit.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.IP-ownership]
 path = 'contracts/IP-ownership.clar'
 clarity_version = 3
 epoch = 3.0
-[contracts.royalty-distribution]
-path = 'contracts/royalty-distribution.clar'
+
 [contracts.ip-stamping]
 path = 'contracts/ip-stamping.clar'
 clarity_version = 2
@@ -20,6 +24,11 @@ epoch = 2.5
 path = 'contracts/nft-contract.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.royalty-distribution]
+path = 'contracts/royalty-distribution.clar'
+clarity_version = 1
+epoch = 2.05
 [repl.analysis]
 passes = ['check_checker']
 

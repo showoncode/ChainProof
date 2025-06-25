@@ -15,6 +15,11 @@ path = 'contracts/IP-ownership.clar'
 clarity_version = 3
 epoch = 3.0
 
+[contracts.dispute-resolution]
+path = 'contracts/dispute-resolution.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.ip-stamping]
 path = 'contracts/ip-stamping.clar'
 clarity_version = 2

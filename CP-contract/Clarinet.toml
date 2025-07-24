@@ -25,6 +25,11 @@ path = 'contracts/ip-stamping.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.license-expiration]
+path = 'contracts/license-expiration.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.nft-contract]
 path = 'contracts/nft-contract.clar'
 clarity_version = 2

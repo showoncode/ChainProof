@@ -1,51 +1,19 @@
 [project]
-name = 'CP-contract'
-description = ''
+name = "CP-contract"
 authors = []
+description = ""
 telemetry = true
-cache_dir = '.\.cache'
 requirements = []
-[contracts.Automated-enforcement]
-path = 'contracts/Automated-enforcement.clar'
-clarity_version = 3
-epoch = 3.0
+[contracts.ip-geolocation-restriction]
+path = "contracts/ip-geolocation-restriction.clar"
+depends_on = []
 
-[contracts.IP-audit]
-path = 'contracts/IP-audit.clar'
-clarity_version = 3
-epoch = 3.0
+[repl]
+costs_version = 2
+parser_version = 2
 
-[contracts.IP-ownership]
-path = 'contracts/IP-ownership.clar'
-clarity_version = 3
-epoch = 3.0
-
-[contracts.dispute-resolution]
-path = 'contracts/dispute-resolution.clar'
-clarity_version = 3
-epoch = 3.0
-
-[contracts.ip-stamping]
-path = 'contracts/ip-stamping.clar'
-clarity_version = 2
-epoch = 2.5
-
-[contracts.license-expiration]
-path = 'contracts/license-expiration.clar'
-clarity_version = 3
-epoch = 3.0
-
-[contracts.nft-contract]
-path = 'contracts/nft-contract.clar'
-clarity_version = 2
-epoch = 2.5
-
-[contracts.royalty-distribution]
-path = 'contracts/royalty-distribution.clar'
-clarity_version = 1
-epoch = 2.05
 [repl.analysis]
-passes = ['check_checker']
+passes = ["check_checker"]
 
 [repl.analysis.check_checker]
 strict = false
